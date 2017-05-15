@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2011113756_ENT
 {
-    public class Class1
+    class CategoriaTransporte
     {
     }
 }

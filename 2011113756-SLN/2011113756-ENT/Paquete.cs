@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2011113756_PER
+namespace _2011113756_ENT
 {
-    public class Class1
+    class Paquete
     {
     }
 }
