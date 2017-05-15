@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2011113756_ENT
 {
-    class Persona
+    public class Persona
     {
+        public int PersonaId { get; set; }
     }
 }

@@ -49,6 +49,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntitiesConfiguration\AlimentacionConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CalificacionHospedajeConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CategoriaAlimentacionConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CategoriaHospedajeConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\CategoriaTransporteConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ClienteConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ComprobantePagoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\EmpleadoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\HospedajeConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\MedioPagoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\PaqueteConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\PersonaConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ServicioHospedajeConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\ServicioTuristicoConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\TipoComprobanteConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\TipoHospedajeConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\TipoTransporteConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\TransporteConfiguration.cs" />
+    <Compile Include="EntitiesConfiguration\VentaPaqueteConfiguration.cs" />
+    <Compile Include="Migrations\201705151737326_InitialModel.cs" />
+    <Compile Include="Migrations\201705151737326_InitialModel.Designer.cs">
+      <DependentUpon>201705151737326_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PaqueteTuristicoDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,6 +85,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201705151737326_InitialModel.resx">
+      <DependentUpon>201705151737326_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

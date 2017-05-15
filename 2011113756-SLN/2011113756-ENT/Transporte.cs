@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2011113756_ENT
 {
-    class Transporte
+    public class Transporte
     {
+        public int TransporteId { get; set; }
     }
 }

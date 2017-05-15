@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2011113756_ENT
 {
-    class ComprobantePago
+    public class ComprobantePago
     {
+        public int ComprobantePagoId { get; set; }
     }
 }

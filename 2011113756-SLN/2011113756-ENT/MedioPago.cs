@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2011113756_ENT
 {
-    class MedioPago
+    public class MedioPago
     {
+
+        public int MedioPagoId { get; set; }
     }
 }

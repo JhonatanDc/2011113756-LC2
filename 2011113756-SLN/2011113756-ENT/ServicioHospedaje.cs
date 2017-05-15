@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2011113756_ENT
 {
-    class ServicioHospedaje
+    public class ServicioHospedaje
     {
+        public int ServicioHospedajeId { get; set; }
     }
 }

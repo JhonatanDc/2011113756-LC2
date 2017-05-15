@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2011113756_ENT
 {
-    class Empleado
+    public class Empleado
     {
+        public int EmpleadoId { get; set; }
     }
 }
